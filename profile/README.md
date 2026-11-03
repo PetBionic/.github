@@ -12,7 +12,7 @@ sessões e permite analisá-las e classificá-las com aprendizagem automática.
 | [PetBionicFirmware](https://github.com/PetBionic/PetBionicFirmware) | **Firmware.** Aquisição de força, IMU e magnetómetro, gravação de sessões, controlo por BLE. V1 preservada na tag `v1-final`; V2 com ambientes `prosthesis` e `auxiliary`. Define o contrato dos ficheiros de sessão em `docs/session-format.md`. | organização |
 | [PetBionicAnalyser](https://github.com/PetBionic/PetBionicAnalyser) | **Python único: app + análise + ML.** `io` lê e sincroniza as placas; `dataset` segmenta passadas, aplica os rótulos do veterinário (intervalos de tempo) e gera janelas; `ml` treina modelos end-to-end e clássicos. Inclui a GUI de visualização. Dados em `PETBIONIC_DATA`. | organização |
 | [PetBionicApp](https://github.com/PetBionic/PetBionicApp) | **App** Capacitor (iOS/Android/web): controlo e preview em tempo real por BLE, gravação do vídeo, classificação dos clips pelos veterinários e resultados da análise. Ainda sem código. | organização |
-| [PetBionicBackend](https://github.com/PetBionic/PetBionicBackend) | **Servidor.** Base de dados, armazenamento das sessões e dos vídeos, e um serviço Python que corta os vídeos em clips e corre o Analyser. Alojamento por decidir. Ainda sem código. | organização |
+| [PetBionicBackend](https://github.com/PetBionic/PetBionicBackend) | **Servidor.** PocketBase self-hosted na Composites: base de dados, sessões e vídeos em disco, e um serviço Python que corta os vídeos em clips e corre o Analyser. Ainda por instalar. | organização |
 | [PetBionicThesis](https://github.com/Zurcaf/PetBionicThesis) | **Tese** (LaTeX, ligada ao Overleaf). Privado, na conta pessoal. | conta pessoal |
 
 ## Como se ligam
